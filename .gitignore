@@ -1,0 +1,59 @@
+# ===========================================================================
+# Vivado / FPGA build artifacts
+# ===========================================================================
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.rpt
+*.html
+*.xml.bak
+
+# Vivado project run/output dirs
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+.Xil/
+vivado*.backup.*
+
+# Vivado project file is optional to track; uncomment to ignore
+# *.xpr
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.vscode/
+.idea/
+
+# Python (training / quantization tooling)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Trained model checkpoints & datasets (regenerate via training)
+*.pt
+*.pth
+data/
+results/
+mem/
+examples/sample_run/
+
+# Generated weight/memory data (regenerate from scripts)
+*.mem
+*.coe
+*.hex
+
+# Simulation artifacts
+*.vcd
+*.wlf
